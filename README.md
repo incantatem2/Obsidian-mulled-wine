@@ -5,7 +5,7 @@ A gradient theme with ethereal colors in dark and light mode.
 The gradient frame coding has been done by Kapirklaa.
 
 dark mode:
-![](images/mulledwine-dark)
+![](images/mulledwine-dark.jpg)
 
 light mode:
-![](images/mulledwine-light)
+![](images/mulledwine-light.jpg)
