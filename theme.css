@@ -194,7 +194,7 @@ body {
 
 .callout {
   border-left: 3px solid #e46872;
-  background-color: #292d3e;
+  background-color: transparent;
   border-radius: 0px;
   padding-left: 20px;
 }
