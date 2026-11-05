@@ -36,7 +36,7 @@ body {
   --inline-title-weight: 400;
 
   --font-text: 'yu gothic', yugothic, sans-serif;
-  --font-text-size: 14px !important;
+  --font-text-size: 14px;
 }
 
 
@@ -92,7 +92,7 @@ body {
 
   --table-border-color: transparent;
 
---checkbox-color: #71799d !important;
+--checkbox-color: #71799d;
 --checkbox-color-hover: #71799d92;
 --checkbox-border-color: #d295d1;
 --checkbox-border-color-hover: #d295d180;
@@ -152,7 +152,7 @@ body {
 
   --table-border-color: transparent;
 
---checkbox-color: #71799d !important;
+--checkbox-color: #71799d;
 --checkbox-color-hover: #71799d92;
 --checkbox-border-color: #d295d1;
 --checkbox-border-color-hover: #d295d180;
