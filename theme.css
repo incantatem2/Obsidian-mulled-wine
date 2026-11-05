@@ -36,7 +36,6 @@ body {
   --inline-title-weight: 400;
 
   --font-text: 'yu gothic', yugothic, sans-serif;
-  --font-text-size: 14px !important;
 }
 
 
@@ -92,7 +91,7 @@ body {
 
   --table-border-color: transparent;
 
---checkbox-color: #71799d !important;
+--checkbox-color: #71799d;
 --checkbox-color-hover: #71799d92;
 --checkbox-border-color: #d295d1;
 --checkbox-border-color-hover: #d295d180;
@@ -152,7 +151,7 @@ body {
 
   --table-border-color: transparent;
 
---checkbox-color: #71799d !important;
+--checkbox-color: #71799d;
 --checkbox-color-hover: #71799d92;
 --checkbox-border-color: #d295d1;
 --checkbox-border-color-hover: #d295d180;
@@ -372,4 +371,14 @@ body {
   --background-modifier-hover: rgba(var(--mono-rgb-0), 0.1);
   --titlebar-text-color: var(--color-base-50);
   --titlebar-text-color-focused: var(--color-base-20);
+}
+
+/* Obsidian sets --font-text-size inline on body, which beats a body rule.
+   Setting it, and --font-preferred-size which copies it, on child elements
+   overrides the inherited values without !important. */
+.app-container,
+.modal-container,
+.popover {
+  --font-text-size: 14px;
+  --font-preferred-size: var(--font-text-size);
 }
